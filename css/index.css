@@ -1,0 +1,41 @@
+
+.indexLoginbar{ 
+width: 1014px;
+overflow:hidden;
+ float:left;
+ clear:both;
+ margin-top: 10px;
+}
+
+/*css for loginbox on index page*/
+
+.indexSignupTitle{
+	float: left;
+	height: 45px;
+	padding-top: 20px;
+	color: #006666;
+	font-size: 18pt;
+	background-image: url("../imgs/form.png");
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding-left: 65px;
+}
+.indexLeftColumn{width: 520px;float: left;padding:0px;margin:0px;border:none;overflow:shown;}
+.indexRightColumn{float: right;width: 480px;padding:0px;margin:0px;border:none;overflow:shown;}
+
+.indexBottombar{
+	color: #666666;
+	margin-right:auto;
+	margin-left: auto;
+	clear: both;
+	text-align: center;
+}
+.indexThemeImagebox{
+	float:left;
+	width: 450px;
+	height: 330px;
+	background-color: #F5F5F5;
+	background-image: url("../imgs/theme.jpg");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}

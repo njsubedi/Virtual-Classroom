@@ -1,0 +1,77 @@
+﻿td{font-size:10pt;color:#003333;}
+.indexSignupBox{
+	float:right;
+	font-size: 10pt;
+	width:480px;
+	text-align: left;
+	opacity: 0.5;
+	filter: alpha(opacity = 50);
+}
+.indexSignupBox:hover{opacity: 1; filter: alpha(opacity = 100);}
+.signupBox{
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	font-size: 10pt;
+	background-color: #FFFFFF;
+	border: 5px solid #F5F5F5;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	outline: 1px solid #E5E5E5;
+	text-align: left;
+	width: 600px;
+}
+.signupTitle{
+		overflow: hidden;
+		color: #009999;
+		font-size: 18pt;
+		background-image: url("../imgs/form.png");
+		background-position: top left;
+		padding-left: 70px;
+		padding-top: 20px;
+		background-repeat: no-repeat;
+		background-color: #f5f5f5;
+		height: 60px;
+}
+.signupTitle p{
+	font-size: 11pt;
+	color: #0066FF;
+}
+.signupForm{
+	font-size: 10pt;
+	margin-top: 10px;
+	line-height: 20px;
+	margin: 10px;
+}
+.signupFooter{
+	background-color: #F5F5F5;
+	padding-top:10px;
+	padding-left: 20px;
+	overflow: hidden;
+}
+.signupinput{
+	background-color: #FFFFFF;
+	border: 1px solid #999999;
+	width: 210px;
+	height: 26px;
+	font-size: 10pt;
+	color: #003333;
+	outline: none;
+	
+}
+.signupinputlong{
+	border: 1px solid #CCCCCC;
+	width: 300px;
+	height: 26px;
+	font-size: 10pt;
+	color: #003333;
+	padding-left: 10px;
+}
+.signupinput:hover{
+	color: #000000;
+	border: 1px solid #339999;
+}
+.signupinput:active{
+	border: 1px solid #CCCCCC;
+	color: #003333;
+}

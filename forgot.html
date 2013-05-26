@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+  <head>
+	<title>Template Page for ovclass</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/template.css" />
+	<link rel="stylesheet" type="text/css" href="css/login.css" />
+	<link rel="stylesheet" type="text/css" href="css/classes.css" />
+	<link rel="stylesheet" type="text/css" href="css/search.css" />
+  </head>
+<body>
+
+<div class="ttopbar">
+	<div class="ttitlebar">
+			<div class="ttopleft">
+				<a href="index.php" alt="OVCLASS" title="OVCLASS"><img src="imgs/ovclasslogodark.png" width="150px" height="55px"/></a>
+			</div>
+			
+		</div><!-- ttitle bar: (common for all) ends here -->
+</div><!-- ttopbar ends here, fortunately ! :) -->
+
+<div class="tpagetitle">
+	<div class="tpagetitleflow" style="padding:5px">
+		Reset Your OVclass Password
+	</div>
+</div>
+
+<div class="tcontainer">
+	<div class="tpagecontents">
+		<div class="loginBoxBig">
+			<div style="font-size: 12pt; font-weight: bold; padding: 5px; color: #006666; border: 1px solid #CCCCCC">
+				<img src="imgs/user.gif" /> Reset your password
+			</div>
+			<div class="loginForm">
+				<form action="resend.php" method="post" >
+				Enter Your Username<br /><input name="username" type="text" class="loginInput" >
+				<input type="submit" value="Reset Password" class="ovButton"/>
+				</form>
+			</div>
+			<div class="errbox">
+				Your verification code will be sent to the email address associated with your account
+			</div>
+		</div>
+		
+	</div>	
+	
+	<div class="bottombar">
+	Virtual Classroom is an open source project. Source code available at: http://ovclass.sourceforge.net
+	</div>
+	
+</div><!-- div closes here : </container > -->
+</body>
+</html>

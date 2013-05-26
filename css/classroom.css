@@ -1,0 +1,357 @@
+/* classrooms.css - includes things for classroom..
+
+	stil, classroom page will have contents from reset.css, classes.css and mainly from template.css
+		the specifications in this css file are just used by classroom and no any other pages at all*/
+
+/* menu on the top */
+#ovMenuTopLeft{
+ float: left;
+ height: 15px;
+ margin-top:5px;
+}
+#ovMenuTopLeft ul, #ovMenuTopLeft li {
+ display: inline;
+ list-style-type: none;
+ float:left;
+ margin-bottom: 5px;
+ color: red;
+}
+#ovMenuTopLeft a {
+	 color: #F5F5F5;
+	 font-family: Tahoma, "Trebuchet MS", Verdana, Arial, sans-serif;
+	 font-size: 10pt;
+	 font-weight: bold;
+	 text-align: center;
+	 text-decoration: none;
+	 padding-left:12px;
+	 padding-right: 12px;
+	 border-right: 1px solid #99CCCC;
+}
+
+#ovMenuTopLeft a:hover {
+ color: #CC3300;
+ background-position: bottom;
+ background-repeat: repeat-x;
+}
+#ovMenuTopLeft a:active{}
+
+#ovMenuTopLeftImg{
+ float: left;
+ margin: 5px;
+ height: 45px;
+ overflow:hidden;
+}
+#ovMenuTopLeftSearch{
+ float: left;
+ height: 30px;
+ margin-top:5px;
+ margin-left:12px;
+}
+
+/****** top gray bar *********/
+
+.ovMenuTopBar{
+	display: block;
+	list-style-type: none;
+	overflow: hidden;
+	background-image: url("../imgs/bar_b.png");
+	background-repeat: repeat-x;
+	height: 32px;
+}
+.ovMenuTopBar li{display: inline;}
+
+.ovMenuTopBar li a {
+	list-style-type: none;
+	font-family: sans-serif;
+	display: inline;
+	border-right: 1px solid #FFFFFF;
+	border-left: 1px solid #CCCCCC;
+	list-style-type: none;
+	float:left;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 198px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #666666;
+}
+
+.ovMenuTopBar li a:hover {
+	background-color: #FFFFFF;
+	text-decoration:none;
+	background-image: url("../imgs/bar_a.png");
+	background-repeat: repeat-x;
+	color: #CC3300;
+}
+.ovMenuTopBar li a:active {
+	background-color: #F5F5F5;
+}
+
+
+.listBold{font-weight: bold;}
+
+/* menu on the left */
+.ovMenuLeft{
+	width: 148px;
+	padding: 0;
+	margin: 0;
+}
+.ovMenuLeftUL{
+			text-align: left;
+			cursor:pointer;
+			font-size:10pt;
+			font-weight:bold;
+			color: #009999;
+			line-height: 1.28em;
+			background-color: #FFFFFF;
+			background-image: url("../imgs/bar_h.png");
+			background-repeat: repeat-x;
+			padding:5px;
+			border-radius: 3px;
+			-moz-border-radius: 3px;
+			-webkit-border-radius: 3px;
+	}
+	
+	.ovMenuLeftList a{
+			float: left;
+			width: 140px;
+			font-weight: bold;
+			color: #666666;
+			border-bottom: 1px solid #E5E5E5;
+			cursor: pointer;
+			font-size: 9pt;
+			text-decoration: none;
+			padding-top:15px;
+			padding-bottom: 15px;
+			text-align: right;
+			padding-right: 3px;
+	}	
+	.ovMenuLeftList a:hover{
+		cursor:pointer;
+		color:#CC3300;
+		background-color: #F5F5F5;
+		background-repeat: repeat-x;
+		text-decoration: none;
+	}
+	.ovMenuLeftList a:active{text-decoration: none; color: #999999; 	cursor: wait;}
+	
+
+	
+	
+/* for creation of classroom */
+.createBox{
+	float:left;
+	font-size: 10pt;
+	overflow: hidden;
+	width: 480px;
+}
+.createErrBox{width:200px;float:left;overflow:auto;}
+.createBox td{font-size: 10pt; }
+.createRows{
+	font-size: 10pt;
+	color: #009999;
+	text-align: left;
+	border-bottom: 1px solid #F5F5F5;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 5px;
+	font-weight: bold;
+}
+.createTitle{font-size:16pt; padding:5px; font-weight:normal; color: #006666;}
+}
+.createForm{
+		padding-left: 0;
+}
+.createFooter{
+		background-color: #E5E5E5;
+}
+.createInput{
+	background-color: #FFFFFF;
+	border: 1px solid #009999;
+	width: 200px;
+	font-size: 10pt;
+	color: #003333;
+	height: 25px;
+	padding: 5px;
+}.createInputlong{
+	border: 1px solid #009999;
+	width: 460px;
+	font-size: 12pt;
+	color: #333333;
+	height: 25px;
+}
+.createInput:hover{
+	color: #000000;
+	border: 1px solid #339999;
+}
+.createInput:active{
+	border: 1px solid #CCCCCC;
+	color: #003333;
+}.createInputLong:hover{
+	color: #000000;
+	border: 1px solid #339999;
+}
+.createInputLong:active{
+	border: 1px solid #CCCCCC;
+	color: #003333;
+}
+.textareaHolder{
+	font-family: inherit;
+	font-size: 10pt;
+	color: #666666;
+	letter-spacing: 1px;
+	background-color: #FFFFFF;
+	border: 1px solid #009999;
+	max-width: 475px;
+	min-width: 475px;
+	overflow: auto;
+	outline: none;
+}.textareaHolder:hover{
+	color: #000000;
+	border: 1px solid #339999;
+}
+.textareaHolder:active{
+	border: 1px solid #CCCCCC;
+	color: #003333;
+}
+.textareaHolderMini{
+	font-family: inherit;
+	font-size: 9pt;
+	outline: none;
+	color: #666666;
+	letter-spacing: 1px;
+	background-color: #FFFFFF;
+	border: 1px solid #E5E5E5;
+	max-width: 398px;
+	min-width: 398px;
+	width: 398px;
+	overflow:auto;
+	min-height: 24px;
+	}
+.textareaHolderMicro{
+	font-family: inherit;
+	font-size: 9pt;
+	outline: none;
+	color: #666666;
+	letter-spacing: 1px;
+	background-color: #FFFFFF;
+	border: 1px solid #E5E5E5;
+	max-width: 300px;
+	min-width: 300px;
+	width: 300px;
+	overflow:auto;
+	min-height: 24px;
+	}
+
+/* for classroom info and wall *****************************
+************************************************************
+*/
+
+.classProfileTop{background-color: #FFFFFF; overflow:hidden; width: 850px;clear: both; text-align: left;}
+	.classProfileTopLeft{width:490px; overflow:hidden; float:left;background-color:#FFFFFF;}
+	.classProfileTopAbout{color: #333333; margin:5px;}
+	.classProfileTopRight{
+		width:360px; overflow:hidden;
+		float:left; 
+		color: #666666;
+		background-color: #FFFFFF;
+	}
+		
+	.classProfileTitleDesc{
+		width: 300px;
+		float:left;
+		overflow:hidden;
+	}
+		.classProfileTitle{
+			float:left; overflow:hidden; background-color: #FFFFFF;
+			font-size: 10pt; color: #CC3300; margin-bottom: 5px;
+		}
+		.classProfileTitle a, .classProfileTitle a:visited{font-weight:bold; color: #CC3300; font-size: 11pt;}
+		
+		.classProfilePic{float: left; width: 100px; height:80px; overflow: hidden; background-color: #FFFFFF;
+			margin-right: 10;}
+		
+		.classProfileSuppInfo{float:left; overflow:hidden;
+			font-size:9pt; color: #999999;
+			}
+		
+		.cpl{overflow:hidden; margin: 5px;}
+		
+/* menu on the right */
+.classRight ul{
+			border-left: 2px solid #CCCCCC;
+			border-right: 1px solid #CCCCCC;
+			border-bottom: 1px solid #999999;
+			background-color:#006666;
+			cursor:pointer;
+			font-size:18pt;
+			color: #E5E5E5;
+	}
+	
+	.classRight ul a li{
+			list-style-type:none;
+			border: 1px solid #FFFFFF;
+			border-bottom:1px solid #CCCCCC;
+			background-color:#F5F5F5;
+			text-align: left;
+			color: #006666;
+			padding:5px;
+			padding-left: 10px;
+			cursor:pointer;
+			font-size: 11pt;
+			text-decoration: none;
+	}
+	.classRight ul a li:hover{
+		cursor:pointer; 
+		color:#FFFFFF; 
+		text-decoration: none; 
+		background-color:#009999;
+		border:1px solid #009999;
+	}
+	
+	.classRight ul a li:active{text-decoration: none; color: #99CCCC; }
+	
+.listBold{font-weight: bold;}
+
+.classAbout{
+overflow: hidden;
+margin-left: auto;
+margin-right: auto;
+background-color: #F5F5F5;
+font-size: 11pt;
+color: #333333;
+}
+	.classAbout h2{
+		color: #009999;
+		background-color: #F5F5F5;
+		background-image: url("../imgs/bar_a.png");
+		background-repeat: repeat-x;
+		font-size: 24pt;
+		font-weight: normal;
+	}
+
+.fieldHeading{color:#006666; background-color: F5F5F5;padding:5px;cursor:pointer; border-bottom:1px solid #E5E5E5;font-weight:bold;text-align:center;background-image:url("../imgs/bar_b.png");background-repeat: repeat-x;display: block;clear:both;}
+.fieldHeading a{color: #CC3300; border-bottom:1px solid #999999;text-decoration:none;}
+
+.addHeading{color:#009900; background-color: F5F5F5;padding:5px;cursor:pointer; border-bottom:1px solid #E5E5E5;font-weight:bold;text-align:left;background-image:url("../imgs/bar_h.png");background-repeat: repeat-x;}
+
+.class_notice{clear:both; overflow:hidden; border:1px solid #CCCCCC; margin-top:10px; margin-bottom: 10px; background-image: url("../imgs/bar_t.png"); background-repeat: repeat-x;background-color:#FFFFFF;}
+.class_notice2{clear:both; padding:5px;}
+
+.noticeHeading{font-size:10pt; font-weight:bold; color:#CC3300; overflow:hidden; padding: 5px; float: left; }
+.noticeHeading a{color: #009999; padding:5px;}
+
+.noticeHeading2{float:left;font-size:10pt; font-weight:normal; color:#333333; overflow:hidden; margin:5px; }
+.noticeHeading2 a{color: #009999; font-weight: bold; font-weight:bold;}
+
+.noticeSuppinfo{clear:both;padding: 5px;font-size:9pt; font-weight:normal; float: left; border-bottom: 1px solid #CCCCCC;}
+.noticeSuppinfo2{clear:both; margin:10px; margin-left:5px; height:20px; font-size:9pt; color: #999999; overflow:hidden; }
+
+.noticeDatetime{color:#666666;font-size:9pt; float:left; margin-left:20px;}
+.urgencya{color:#009999;font-size:9pt;float:left;}
+.urgencyb{color:#FF9900;font-size:9pt;float:left;}
+.urgencyc{color:#FF3300;font-size:9pt;float:left;}
+
+.noticeContent{clear:both; font-size:10pt; text-align:left; color:#006666;background-color: #FFFFFF;overflow:hidden; font-weight:normal; padding: 10px;}

@@ -1,0 +1,63 @@
+/* css for template */
+.ttopbar{background-color: #009999; width: 100%; height: 60px; text-align:center;border-bottom: 1px solid #006666;
+background-image: url("../imgs/bar_t.png");background-repeat:repeat-x;}
+.indexttopbar{ width: 100%; height: 80px; text-align:center;background-color: #009999;}
+
+.ttitlebar{background-color: #009999;	width:1014px;	height: 55px; text-align: left; margin-left:auto; margin-right: auto; 
+background-image: url("../imgs/bar_t.png");background-repeat:repeat-x;}
+.indexttitlebar{width:1014px; height: 80px; text-align: left; margin-left:auto; margin-right: auto;}
+
+.ttopleft{float:left;width:155px;height:55px;overflow:hidden;}
+.indexttopleft{float:left;width:320px;height:80px;overflow:hidden;margin-right:5px;margin-left:-5px;}
+
+.ttopright{float:left;width:858px;height:55px;}
+.indexttopright{float:right;width:440px;margin-top:20px; color:#FFFFFF;line-height:24px; font-size: 10pt;}
+
+.tcontainer{ width: 100%; overflow: shown;margin: auto;clear: both; text-align:center;}
+.indextcontainer{width: 100%;overflow: shown;margin: auto;padding:0; clear: both; text-align:center; background-color: #F5F5F5;
+}
+/* bother not */
+.tpagetitle{width:100%; overflow:shown;background-color:#F5F5F5;font-size:12pt;color:#999999;border-bottom:1px solid #999999;border-top:1px solid #FFFFFF;text-align:center;}
+.tpagetitleflow{width:1012px; clear:both; margin-left:auto;margin-right:auto;text-align:left;}
+.tpagetitleflow span{font-size: 12pt;color:#009999;font-weight:bold;}
+/* page body */
+
+.tpagecontents{  width:1014px; margin-left: auto; margin-right: auto; clear: both; background-color: #FFFFFF; overflow:hidden; padding-bottom:10px; padding-top: 10px; border:1px solid #CCCCCC; border-top:none; text-align: center;}
+.tpagecontents a{color: #333333}
+
+.indextpagecontents{  width:1014px; margin-left: auto; margin-right: auto; clear: both; overflow:hidden; padding-bottom:10px; text-align: left;}
+.indextpagecontents a{color: #333333}
+
+.tleftbody{ width: 148px; float:left; margin:0;padding:0; text-align: left;}
+.tcenterbody{width: 860px; float: left; background-color: #FFFFFF;text-align:left;}
+.tmidheader { width: 850px; margin: 5px;padding-bottom:5px; overflow:hidden; clear:both; overflow:hidden;}
+
+.tmidbody{ margin-left:5px; margin-right: 5px; float:left; overflow: hidden; width: 484px;}
+.trightbody{overflow:hidden;float:left; color: #006666;width:365px; font-size: 9pt;
+background-color: #F5F5F5;border-radius: 5px;}
+
+.bottombar {background-color: #E5E5E5; padding: 10px; letter-spacing:1px;background-image: url("../imgs/bar_b.png");background-repeat:repeat-x; margin-top: 20px;}
+
+.profilepic{width:115px;height:150px;background-color:#FFFFFF;border:none;overflow:hidden;}
+.profileinfo{width:115px; height:60px; background-color: #FFFFFF;  border:none;}
+
+/* profile contents : denoted by 'p' */
+.profile{float:left;overflow:hidden;background-color: #F5F5F5;border:1px solid #E5E5E5;}
+.ptop{background-color: #E5E5E5; color: #006666; font-size: 14pt;padding:5px;}
+	.ptopdesc{font-size: 10pt;background-color: transparent;color: #666666;}
+.pleft{ width:170px; border-right:1px solid #E5E5E5; padding: 5px;float:left;}
+	.plimg{}
+	.pldesc{background-color: #F5F5F5; padding: 2px; font-size:10pt;color:#666666;}
+.pcenter{width: 230px; padding: 5px;float:left;background-color: #FFF;}
+	.prtabs{  background: #FFF;padding:1px;margin-bottom:10px;color: #666666;}
+.pright{width: 150px; font-size:10pt;background-color:#F5F5F5;float:left;}
+	.pright ul{background-color: #E5E5E5;list-style-type: none;font-weight: bold;}
+	.pright ul li{font-weight: normal;list-style-image:url("icons/msgmin.gif")}
+
+.wall{}
+.wallinfo{background-color: #F5F5F5; font-size:13pt;color: #006666;clear:both;float:left;width:100%;border-top: 1px solid #E5E5E5;}
+.wallinput{font-size: 10pt;}
+#wallmsgtxt{border: 1px solid #a9a9a9;font-size:10pt;font-family:Tahoma,Arial,Times New Roman}
+.wallinput span{font-size:10pt;}
+.wallinputbtn{}
+

@@ -1,0 +1,14 @@
+/* template contents : denoted by 't' */
+*{margin:0;padding:0;}
+body,html{
+	font-family: Tahoma, Calibri, FreeSans, Serif, Monospace,OpenSymbol, Arial, Times New Roman, Arial, Ubuntu;
+	background-color:#FFFFFF;	
+	background-attachment:fixed;
+	font-size: 9pt;
+	text-align: center;
+}
+a{text-decoration:none;	cursor: pointer;}
+a:hover{text-decoration: underline;	cursor: pointer;}
+a:visited{}
+.noUnderline:hover{text-decoration:none;}
+img{border:none;}

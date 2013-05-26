@@ -1,0 +1,35 @@
+.profileThumbs{
+overflow:hidden;
+font-size:8pt;
+color:#003333;
+margin-bottom: 10px; 
+border-top: 1px solid #E5E5E5;
+float: left;
+clear: both;
+}
+
+.profileThumbLeft{float:left;background-color: #E5E5E5; width:30px; float:left; margin-top: 5px; margin-left:5px; overflow:hidden;}
+.img_author{width: 55px; height:60px; border:1px solid #CCCCCC;}
+
+.profileThumbMiddle{margin: 2px;float:left; overflow:hidden; width: 104px;}
+
+.profileThumbMidTitle{color:#006666;margin:2px;}
+.profileThumbMidTitle a{font-size:9pt;color:#CC6600;}
+
+.profileThumbMidText{color:#003333;font-size:8pt;font-weight:none; padding:2px; margin-bottom:3px;}
+.suppInfo{color:#999999;}
+
+
+.profileThingsBar{
+background-color: red;
+width: 720px;
+margin: 5px;
+height: 120px;
+overflow: hidden;
+}
+.profileThings{
+width: 100px;
+height: 100px;
+margin: 5px;
+border: 1px solid #FFFFFF;
+}

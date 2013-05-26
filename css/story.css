@@ -1,0 +1,102 @@
+	.newPost{ 
+		float:left;
+		width:480px;
+		overflow: hidden;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+	.newPostTitle{
+		clear: both;
+		padding:5px;
+		overflow: hidden;
+		font-size: 10pt;
+		font-weight: bold;
+		color: #006666;
+		background-color: #F5F5F5;
+		background-image: url("../imgs/bar_h.png");
+		background-repeat: repeat-x;
+	}
+	.newPicTitle{ clear: both; width: 480px; }
+	#newPicInput{width:40px; overflow:hidden;}
+	
+	.newPostBody{
+		clear: both;
+		width: 480px;
+		overflow: hidden;
+		text-align: center;
+	}
+	#newPostText{
+		font-family: Tahoma, Calibri;
+		font-size: 10pt;
+		outline: none;
+		overflow: auto;
+		margin:0;
+		padding: 0;
+		width:480px;
+		min-width:480px;
+		max-width:480px;
+		max-height: 150px;
+		border:1px solid #E5E5E5;
+	}
+	
+	.newPostFooter{
+		clear: both;
+		width: 480px;
+		padding: 3px;
+		background-color: #F5F5F5;
+		background-image: url("../imgs/bar_b.png");
+	}
+	
+	.recentPostsInfo{
+		color: #006666;
+		font-size: 10pt;
+		font-weight: bold;
+		clear: both;
+		padding: 5px;
+		margin-top: 10px;
+		overflow:hidden;
+		margin-bottom:10px;
+		text-align: center;
+		background-color: #F5F5F5;
+		background-image: url("../imgs/bar_b.png");
+		background-repeat: repeat-x;
+	}
+	
+	.stories{
+		overflow:hidden; width:475px; 
+		font-size:9pt;color:#003333;
+		margin-bottom: 20px;
+		text-align: left;
+		float: left;
+	}
+	
+	.storyLeft{background-color: #E5E5E5; width:58px; float:left; margin: 5px; overflow:hidden;}
+		.img_author{width: 56px; border:1px solid #CCCCCC;}
+	
+	.storyMiddle{float:left;background-color:#FFFFFF;width:405px;overflow:hidden;margin-top:5px;}
+	
+		.storyMidTitle{height:18px;color:#006666;margin:2px;}
+		.storyMidTitle a{font-size:9pt;color:#006666;}
+		
+		.storyMidText{color:#003333;font-size:9pt;font-weight:none; }
+		.suppInfo{margin-top:3px; margin-bottom: 3px; color:#999999;}
+		/* field to display all comments */
+		.storyAllComments{background-color: #FFFFFF; font-size: 8pt;}
+	
+	/* comments... each one */
+	.comments{
+		font-size:8pt; width:406px;   padding-left: 4px; padding-top: 4px;
+		overflow: hidden;color:#999999; background-color: #F5F5F5;
+		border-top: 1px solid #FFFFFF;
+		border-bottom: 1px solid #E5E5E5; border-left:2px solid #E5E5E5;
+	}
+		.commentLeft{
+			width: 35px;height: 35px; background-color: #E5E5E5;float: left;
+			}
+		.commentMiddle{ 
+		overflow: hidden; width: 359px;float: left; padding-left: 5px; padding-bottom: 5px;
+		font-size:8pt; background-color: #F5F5F5;
+		}
+			.commentBody a{font-size:9pt; color:#006666; font-weight:bold;}
+			.commentBody span{color: #333333;font-size: 9pt;}

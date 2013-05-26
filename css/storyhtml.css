@@ -1,0 +1,32 @@
+	.wallPost{width:580px; height: 100px; background-color:#E5E5E5;border:1px solid #FFFFFF;border-bottom: 1px solid #999999;}
+	.wallPostTitle{clear:both; background-color: #F5F5F5;height: 20px; padding: 2px; font-size: 12pt; color: #006666; }
+	.wallPostText{}
+	.wallPostInput{}
+
+	.stories{border-top: 1px solid #CCC;overflow:hidden;background-color:#FFFFFF;font-size:9pt;color:#003333;font-family: Tahoma;Calibri}
+	.storyLeft{float:left;background-color:#F5F5F5;width:60px;height:112px;padding:2px;}
+	.storyLeftPic{background-color:#E5E5E5;border:1px solid #FFFFFF;width:58px;height:60px;}
+	.storyLeftInfo{}
+	
+	.storyMiddle{float:left;background-color:#FFFFFF;width:420px;border-bottom:1px solid #E5E5E5;border-right:1px solid #E5E5E5;}
+	.storyMidTitle{background-color:#F5F5F5;border-bottom:1px solid #E5E5E5;height:18px;padding:2px;color:#006666;font-size:9pt;}
+	.suppInfo{color:#999999;}
+	
+	.storyMidText{color:#003333;font-size:9pt;font-weight:none;padding:5px;	border-bottom: 1px solid #E5E5E5;}
+	.storyMidComments{background-color: #F5F5F5;}
+	.storyMidInput{}
+	
+	.storyRight{width:100px;background-color:#F5F5F5;height:120px;float:left;}
+	.storyRightTop{height:18px;border:1px solid #FFFFFF;border-bottom: 1px solid #E5E5E5;padding:2px;color:#669999;text-align:center;}
+	.storyRightList{}
+	
+	.storyPanel{}
+	.storyPanelTop{}
+	.storyPanelField{}
+	
+	.comments{border: 1px solid #CCCCCC;border-top: 1px solid #FFFFFF;width:418px;overflow: hidden;color:#666666;}
+	.commentLeft{width: 40px;height: 40px; background-color: #FFFFFF;float: left;}
+	.commentMiddle{width: 336px; height: 40px; background-color: #F5F5F5; float: left;padding:5px;}
+	
+	.commentInput{width:336px;background-color: #F5F5F5;border: 1px solid #E5E5E5;overflow: hidden;padding: 5px;}	
+	.commentInput textarea{font-size: 10pt; font-family: Tahoma, Calibri, Times New Roman;height:30px;border:none;padding-right:50px;}

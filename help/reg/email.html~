@@ -1,0 +1,7 @@
+<ul>Email
+	<li>It must be in a proper format</li>
+	<li>One email address can be registered for only one account.</li>
+	<li>Email address must not be blank</li>
+	<li>Email address must be a valid one to verify account</li>
+	<li>Email address is the only way we communicate with users</li>
+</ul>

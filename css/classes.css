@@ -1,0 +1,83 @@
+﻿/* supplementary css elements here */
+
+/* boxes here */
+.infobox{
+	font-size: 10pt;
+	color: #006666;
+	clear: both;
+	padding: 5px;
+	background-color: #F5F5F5;
+}
+.errbox{
+	cursor: pointer;
+	font-size: 10pt;
+	clear: both;
+	padding: 3px;
+	border: 1px solid #CC3333;
+	background-color: #FFCCCC;
+}
+.iconbox{
+	float: left;
+	background-color: #009999;
+	padding: 5px;
+}
+
+	
+/* icon containers here */
+.iconbig{
+	background-color: #F5F5F5;
+	text-decoration: none;
+	border: 1px solid #CCC;
+	width: 200;
+	height: 200px;
+	float: left;
+	margin: 30px;
+	cursor: pointer;
+	text-align: center;
+}.iconbig:hover{text-decoration:none;}
+
+/* text background styles here  */
+.darkTable{/*for TOS of signupbox */
+	background-color: #F5F5F5;
+	border-top: 1px solid #E5E5E5;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #E5E5E5;
+	border-right: 1px solid #CCCCCC;
+	padding: 5px;
+}
+
+/* dark text and light text... already defined for ease */
+.darktext{color:#666666;}
+.lighttext{color:#FFFFFF;}
+
+.logintextdark{color: #006666; font-weight: bold;}
+.logintextdark a{color: #006666;}
+.logintextlight{color: #F5F5F5; font-weight: bold;}
+.logintextlight a{color: #E5E5E5;}
+
+
+/* for errors in TD */
+.errfield{	font-size: 9pt;	color: #FF3300;}
+.errfield a{font-size:9pt;color:#CC0000;}
+
+/* buttons here */
+	.ovButton{padding: 4px; text-align:center; background-color:#009999;color:#FFFFFF;border:none;border:1px solid #E5E5E5;font-size:10pt;font-weight:bold;cursor:pointer; outline:none; background-image: url("../imgs/bar_a.png");}
+	.ovButton:hover{background-color: #006666;text-decoration:none; }
+	.ovButton:active{color: #00CCCC;}
+	
+	.ovButton2{
+		padding: 2px; padding-left: 5px; padding-right: 5px; margin: 2px;
+		background-color:#E5E5E5;color:#666666; font-size: 9pt;
+		border: 1px solid #F5F5F5; border-bottom: 1px solid #CCCCCC; background-image: url("../imgs/bar_a.png"); }
+	
+	.ovButton2:hover{cursor:pointer; color:#000000;text-decoration:none;}
+	.ovButton2:active{ color: #666666; }
+
+.buttonLinks{padding: 3px; padding-left:5px; padding-right: 5px; background-color: #F5F5F5;background-image: url("../imgs/bar_a.png"); color: #666666; font-size: 9pt;}
+	
+.bDay{
+	height: 26px;
+	padding: 3px;
+	border: none;
+	outline: 1px solid #999999;
+}

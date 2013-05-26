@@ -1,0 +1,61 @@
+.chatbar{
+	position: fixed;
+	top: 0; right: 0;
+	width: 180px;
+	height: 360px;
+	overflow: hidden;
+	background-color: #666666;
+	border: 1px solid #a9a9a9;
+	zoom: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(Opacity=80);
+	-moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+	z-index: 1000;
+}	
+		clear: both;
+	.chattitle{
+		color: #006666;
+		width: 600px;
+		height: 25px;
+		background-color: #00CCFF;
+	}
+	.minBut{
+		float: left;
+		margin-right:8px;
+		color: #000000; 	
+		cursor: pointer;
+		background-color: #00CCFF;
+		border: 1px solid #FFFFFF;
+		height: 19px;
+		padding:3px;
+	}
+	.minBut:hover{color:#FFFFFF;}
+	
+	.chatbody{
+		width:594px;
+		height: 330px;
+		clear:both;
+		overflow: hidden;
+		background-color: #FFFFFF;
+	}
+	.chatarea{
+		float: left;
+		width: 412px;
+		height: 340px;
+		overflow: hidden;
+		background-color: #FFFFFF;
+	}
+	.onlinelist{
+		float:left;
+		width:180px;
+		height: 340px;
+		overflow: auto;
+		background-color: #00CCFF;
+		border-left: 1px solid #FFFFFF;
+	}
+	.onlinelist ul{
+		font-weight: bold;
+		color: #000000;
+	}
