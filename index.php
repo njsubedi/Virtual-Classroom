@@ -1,5 +1,9 @@
 <?php
-    require_once "install.php";
+    if( !file_exists("include/definitions.php") ){
+       header("Location: install.php");
+       exit;
+    }
+    
 	include_once "include/session.php";
 	
 	
